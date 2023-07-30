@@ -4,7 +4,7 @@ import { PiShootingStarThin } from "react-icons/pi";
 
 const Header = () => {
   return (
-    <header className="container flex justify-between h-10 items-center  mt-6">
+    <header className="container max-w-6xl mx-auto flex justify-between h-10 items-center  mt-6">
       <span>
         <PiShootingStarThin size={35} color="gray" />{" "}
       </span>

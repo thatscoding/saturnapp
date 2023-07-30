@@ -38,7 +38,7 @@ const serviceCard = [
 
 function ServicesCard() {
   return (
-    <div className=" mb-2">
+    <div className=" mb-2 ">
       <Swiper
         slidesPerView={4}
         spaceBetween={10}
@@ -51,16 +51,16 @@ function ServicesCard() {
       >
         {serviceCard.map((item, index) => {
           return (
-            <SwiperSlide className="flex items-center py-4 md:py-8 lg:py-12 px-2 md:px-4">
+            <SwiperSlide className="flex items-center py-4 md:py-8 lg:py-12">
               <div
-                className="relative shadow-xl rounded-xl w-20 h-20 md:w-44 md:h-44 lg:w-60 lg:h-60 border border-gray-100 hover:scale-105 duration-1000 ease-in-out"
+                className="relative shadow-xl rounded-xl w-20 h-20 sm:w-32 sm:h-32 md:w-44 md:h-44 lg:w-60 lg:h-60 border border-gray-100 hover:scale-105 duration-1000 ease-in-out mx-auto"
                 style={{ backgroundColor: item.color }}
               >
                 <div className="absolute -top-3 md:-top-6 right-3 lg:right-8 lg:-top-8">
                   <img
                     src={item.source}
                     alt=""
-                    className="w-12 h-12 md:w-28 md:h-28 lg:w-36 lg:h-36"
+                    className="w-12 h-12 sm:w-20 sm:h-20 md:w-28 md:h-28 lg:w-36 lg:h-36"
                   />
                 </div>
                 <p className="absolute text-[0.7rem] md:text-xl  font-semibold  bottom-2 md:bottom-6 lg:bottom-10 w-full text-center mt-4 uppercase ">
