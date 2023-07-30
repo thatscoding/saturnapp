@@ -14,7 +14,7 @@ import SliderCard3 from "../components/SliderCard3";
 
 const Home = () => {
   return (
-    <main className="container max-w-6xl mx-auto flex flex-col gap-y-6">
+    <main className="container  lg:max-w-6xl mx-auto flex flex-col gap-y-6">
       <h3 className="mt-8 md:mt-10 lg:mt-14 text-3xl md:text-4xl lg:text-[2.8rem]">
         <span className="text-gray-500"> Welcome,</span>{" "}
         <span className="font-bold"> June!</span>
