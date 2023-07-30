@@ -15,7 +15,7 @@ import SliderCard3 from "../components/SliderCard3";
 const Home = () => {
   return (
     <main className="container max-w-6xl mx-auto flex flex-col gap-y-6">
-      <h3 className="mt-8 md:mt-10 lg:mt-14 text-3xl md:text-4xl">
+      <h3 className="mt-8 md:mt-10 lg:mt-14 text-3xl md:text-4xl lg:text-[2.8rem]">
         <span className="text-gray-500"> Welcome,</span>{" "}
         <span className="font-bold"> June!</span>
       </h3>
@@ -24,7 +24,7 @@ const Home = () => {
         <ServicesCard />
       </section>
 
-      <section className=" bg-[#F2F1FC] rounded-2xl shadow-xl flex h-[22vh] md:h-[30vh]">
+      <section className=" bg-[#F2F1FC] rounded-2xl shadow-xl flex h-[22vh] md:h-[30vh] lg:h-[35vh] ">
         <div className="left flex-1 flex flex-col justify-center items-center gap-y-1 md:gap-y-3">
           <p className="font-bold text-base  md:text-xl lg:text-2xl">
             Wellness Overview:
@@ -38,7 +38,7 @@ const Home = () => {
           <p className="text-center text-sm md:text-xl">Your current BMI</p>
         </div>
         <div className="right flex-1 flex justify-center items-center flex-col gap-y-2 md:gap-y-4">
-          <div className="flex items-center pl-4  gap-2 md:gap-4 bg-white rounded-xl text-center w-36 md:w-44 py-1 md:py-2">
+          <div className="flex items-center pl-4  gap-2 md:gap-4 bg-white rounded-xl text-center w-36 md:w-44 py-1 ">
             <FaWeight color="orange" className="" size={19} />
             <p className="text-sm md:text-base font-semibold"> 80.5 kgs</p>
           </div>
@@ -53,8 +53,8 @@ const Home = () => {
         </div>
       </section>
 
-      <section className="flex w-full h-[22vh] md:h-[30vh] my-2  md:my-4 lg:my-6 gap-1 md:gap-4 lg:gap-6">
-        <div className="left flex-1 bg-[#FFF5EF] rounded-xl shadow-xl flex items-start justify-center flex-col gap-y-2 pl-2 md:pl-4 ">
+      <section className="flex w-full h-[22vh] md:h-[30vh] lg:h-[35vh]  my-2  md:my-4 lg:my-6 gap-1 md:gap-4 lg:gap-6">
+        <div className="left flex-1 bg-[#FFF5EF] rounded-xl shadow-xl flex items-start justify-center flex-col gap-y-2 pl-2 md:pl-4  lg:py-4 lg:px-8">
           <p className="font-bold text-base md:text-xl lg:text-2xl ">
             Overall Skin score:
           </p>
@@ -77,9 +77,9 @@ const Home = () => {
             <div className="border-4 border-[#FFD0D0] w-1/2 rounded-r-xl"></div>
           </div>
 
-          <p className="text-sm md:text-lg py-2 px-1">Week: 40/54</p>
+          <p className="text-sm md:text-base py-2 px-1">Week: 40/54</p>
         </div>
-        <div className="right flex-1 bg-[#FFEFF5] rounded-xl shadow-xl flex items-start pl-4 justify-center px-1 gap-y-1 flex-col">
+        <div className="right flex-1 bg-[#FFEFF5] rounded-xl shadow-xl flex items-start pl-4 justify-center px-1 gap-y-1 flex-col lg:px-8">
           <p className="font-bold text-base md:text-xl lg:text-2xl">
             Hair Tracker:
           </p>
@@ -102,7 +102,7 @@ const Home = () => {
             <div className="border-4 border-[#FFD0D0] w-1/2 rounded-r-xl"></div>
           </div>
 
-          <p className="text-sm py-2 px-1">Week: 40/54</p>
+          <p className="text-sm  md:text-base py-2 px-1">Week: 40/54</p>
         </div>
       </section>
 

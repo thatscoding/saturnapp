@@ -86,7 +86,12 @@ const SliderCard3 = ({ text }) => {
           },
 
           814: {
-            slidesPerView: 1,
+            slidesPerView: 2,
+            spaceBetween: 10,
+          },
+
+          800: {
+            slidesPerView: 2,
             spaceBetween: 10,
           },
           900: {
@@ -111,7 +116,7 @@ const SliderCard3 = ({ text }) => {
         {images.map((item, index) => {
           return (
             <SwiperSlide className="flex items-center py-8 px-4">
-              <div className=" sm:h-[350px] md:w-[400px] md:h-[300px]  lg:w-[500px] lg:h-[400px] shadow-xl rounded-xl  border border-gray-100 hover:scale-105 duration-1000 ease-in-out ">
+              <div className=" sm:h-[350px] md:w-[400px] md:h-[300px]  lg:w-[530px] lg:h-[400px] shadow-xl rounded-xl  border border-gray-100 hover:scale-105 duration-1000 ease-in-out ">
                 <div className="relative w-full h-full rounded-xl">
                   <img
                     src={item.source}
